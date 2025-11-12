@@ -23,7 +23,7 @@ export default function ProjectsSection() {
             tags: ['HTML','React', 'Next.js', 'Tailwind CSS','CSS', 'TypeScript','Node.js', 'PostgreSQL', 'API', 'Version control'],
             qrCode: '/projectsQr/syntaxQr.png',
             image: '/projects/syntaxAcademy.jpg',
-            github: 'https://github.com/norpage/SyntaxAcademy',
+            github: 'https://github.com/davpage/SyntaxAcademy',
             demo: 'https://www.syntaxacade.my/',
         },
         {
@@ -32,7 +32,7 @@ export default function ProjectsSection() {
             tags: ['HTML','Next.js','React', 'Tailwind CSS', 'JavaScript', 'API', 'Version control'],
             qrCode: '/projectsQr/movieNestQr.png',
             image: '/projects/movieNest.png',
-            github: 'https://github.com/norpage/MovieNestNext',
+            github: 'https://github.com/davpage/MovieNestNext',
             demo: 'https://movienest.live/',
         },
         {
@@ -41,7 +41,7 @@ export default function ProjectsSection() {
             tags: ['HTML', 'CSS', 'JavaScript'],
             qrCode: '/projectsQr/gamesQr.png',
             image: '/projects/games.png',
-            github: 'https://github.com/norpage/JsGames',
+            github: 'https://github.com/davpage/JsGames',
             demo: 'https://games.syntaxacade.my/',
         },
         {
@@ -50,7 +50,7 @@ export default function ProjectsSection() {
             tags: ['HTML', 'CSS', 'JavaScript'],
             qrCode: '/projectsQr/yddQr.png',
             image: '/projects/wedding.png',
-            github: 'https://github.com/norpage/Weddings',
+            github: 'https://github.com/davpage/Weddings',
             demo: 'https://ydd.syntaxacade.my/wedding_one/index.html',
         },
 
@@ -60,7 +60,7 @@ export default function ProjectsSection() {
             tags: ['JavaScript','Node.js', 'PostgreSQL', 'API', 'Version control','Telegram-API','Ubuntu Server'],
             qrCode: '/projectsQr/dowBotQr.png',
             image: '/projects/dowBot.png',
-            github: 'https://github.com/norpage/DowBot',
+            github: 'https://github.com/davpage/DowBot',
             demo: 'https://t.me/lav_dow_bot',
         },
     ];
