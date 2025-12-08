@@ -70,7 +70,7 @@ export default function Navigation({ locale }: { locale: string }) {
 
                     <div className="hidden sm:flex gap-1">
                         <Link
-                            href={'https://www.syntaxacade.my/'}
+                            href={`https://www.syntaxacade.my/${locale}`}
                             target={'_blank'}
                             className="pr-3 items-center flex rounded-md bg-[var(--nav-bg)] text-[var(--header-text)] hover:bg-opacity-80 transition"
                         >
