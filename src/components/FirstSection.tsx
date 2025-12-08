@@ -59,7 +59,7 @@ const FirstSection = () => {
                         </h1>
                         <h2 className="relative ml-8 text-2xl mb-2">
                             {t('im')}
-                            <hr className="absolute border-[var(--gradient-via-line)] top-3/4 left-[-310px] w-[300px]" />
+                            <hr className="absolute border-[var(--gradient-via-line)] top-3/4 left-[-360px] w-[350px]" />
                         </h2>
                         <h3 className="text-4xl font-bold mb-6">{t('softDev')}</h3>
                         <div className="flex justify-center md:justify-start space-x-4">
@@ -103,6 +103,8 @@ const FirstSection = () => {
                         {/* Image */}
                         <Image
                             ref={imageRef}
+                            loading="eager"
+                            priority
                             src="/me.png"
                             width={1000}
                             height={800}

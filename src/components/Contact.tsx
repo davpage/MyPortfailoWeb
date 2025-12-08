@@ -180,7 +180,7 @@ const Contact: React.FC = () => {
                     className="relative ml-8 text-2xl mb-6"
                 >
                     {t("letsTalk")}
-                    <hr className="absolute border-[var(--gradient-via-line)] top-3/4 left-[-560px] w-[550px]"/>
+                    <hr className="absolute border-[var(--gradient-via-line)] top-3/4 left-[-610px] w-[600px]"/>
                 </motion.h3>
                 <motion.button
                     whileHover={{scale: 1.05}}

@@ -81,3 +81,20 @@
     opacity: 1;
     transform: translateX(0);
 }
+
+.scroll-track {
+    animation: scroll-left 15s linear infinite;
+}
+
+.scroll-track:hover {
+    animation-play-state: paused; /* optional */
+}
+
+@keyframes scroll-left {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-50%);
+    }
+}
