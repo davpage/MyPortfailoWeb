@@ -33,7 +33,7 @@ export default function ProjectsSection() {
             qrCode: '/projectsQr/movieNestQr.png',
             image: '/projects/movieNest.png',
             github: 'https://github.com/davpage/MovieNestNext',
-            demo: 'https://movienest.live/',
+            demo: 'https://movienest.cc/',
         },
         {
             title: t('jsGames.title'),
