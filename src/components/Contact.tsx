@@ -149,7 +149,7 @@ const Contact: React.FC = () => {
             initial={{opacity: 0, rotateX: -45, scale: 0.9}}
             animate={{opacity: 1, rotateX: 0, scale: 1}}
             transition={{duration: 1, ease: "easeOut"}}
-            className="w-full flex flex-col min-[720px]:flex-row gap-[15%] justify-center items-center p-6 min-[500px]:p-10 text-white"
+            className="w-full flex flex-col min-[720px]:flex-row gap-0 min-[720px]:gap-[15%]  justify-center items-center p-14 min-[500px]:p-10 text-white"
         >
             {modalType && modalMessage && (
                 <MessageModal
@@ -237,17 +237,18 @@ const Contact: React.FC = () => {
                         </motion.div>
                     ))}
                 </form>
-            </motion.div>
-            <motion.button
+              <motion.button
                 whileHover={{scale: 1.05}}
                 whileTap={{scale: 0.95}}
                 onClick={handleSubmit}
                 disabled={loading}
                 className="bg-[var(--gradient-via-line)] min-[720px]:hidden text-white px-6 mt-6 py-2 rounded hover:opacity-90 transition disabled:opacity-50"
-            >
+              >
                 {loading ? t("sending") : t("send")}
 
-            </motion.button>
+              </motion.button>
+            </motion.div>
+
         </motion.div>
     );
 };
